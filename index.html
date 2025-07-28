@@ -42,7 +42,7 @@
       <div class="sidebar-info" style="background-color: black;">
 
         <figure class="avatar-box" style="width: max-content;background-color: black;">
-          <img src="./assets/images/drewlogo.jpg" alt="drew galloway" width="30%" height="30%" style="border-radius: 10px;">
+          <img src="./assets/images/drew profile 2.jpg" alt="drew galloway" width="30%" height="30%" style="border-radius: 10px;">
         </figure>
 
         <div class="info-content">
@@ -102,7 +102,7 @@
             <div class="contact-info">
               <p class="contact-title">Company</p>
 
-              <time datetime="">X-Flash Messenger</time>
+              <time datetime="">DrewSky Softwares</time>
             </div>
 
           </li>
@@ -227,19 +227,19 @@
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about" style="background:#000033;">
+      <article class="about  active" data-page="about" style="background:var(--bg-gradient-cyber);">
 
         <header>
           <h2 class="h2 article-title">About me</h2>
         </header>
 
         <section class="about-text"  >
-          <p>
-            I am Robinson Otochi, a passionate software engineer  pursuing a Bachelor's Degree in Software Engineering at Kisii University, Beside,am also pursuing a Part-time Bachelor's  Degree in Robotics and Automation Engineering at JKUAT. I possess strong skills in mobile development, full stack web development, blockchain technology, and training AI models. I am dedicated to enhancing my technical abilities and staying updated on the latest advancements in the tech industry.
+          <p style="color: #fff;">
+I'm a Software Developer driven by impact — building multi-versated Projects & systems handling full stack web development, Mobile App Development , at the intersection of software engineering, blockchain for social good. With experience across the MERN stack, PHP Laravel, MOBILE App Development, and Blockchain Technology under Internet Computer Protocol (ICP), I love creating projects that solve real-world problems, empower underserved communities, and drive innovation across industries such as health, finance, agriculture, and education.
           </p>
 
-          <p style="color:  rgb(233, 185, 81);">
-          My curiosity drives me to explore new technologies, ensuring that I deliver cutting-edge solutions that meet the evolving needs of clients and users alike.
+          <p style="color: #f1ed1d;">
+            Am also a passionate software engineer pursuing a Bachelor's Degree in Software Engineering at Kisii University. Besides, I'm enrolled in Robotics & Automation Programmes.
           </p>
         </section>
 
@@ -247,114 +247,151 @@
         <!--
           - service
         -->
+<style>
+  .service-item {
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    transition: transform 0.3s ease;
+  }
 
-        <section class="service">
+  .service-icon-box {
+    border-radius: 50%;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+  .service-item:hover .service-icon-box {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+  }
 
-          <ul class="service-list">
+  .service-icon-box svg {
+    transition: transform 0.3s ease;
+  }
 
-            <li class="service-item" style="background-color: rgb(241, 29, 14);">
+  .service-item:hover svg {
+    transform: rotate(5deg);
+  }
 
-              <div class="service-icon-box" >
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
+  .service-item-title,
+  .service-item-text {
+    color: #fff;
+  }
 
-              <div class="service-content-box" >
-                <h4 class="h4 service-item-title">system developer</h4>
+  .service-content-box {
+    flex: 1;
+  }
+</style>
 
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
+<section class="service">
+  <h3 class="h3 service-title">What I'm Doing</h3>
+  <ul class="service-list">
 
-            </li>
+    <!-- Software Developer -->
+    <li class="service-item" style="background-color: rgb(241, 29, 14);">
+      <div class="service-icon-box" style="background: var(--bg-gradient-sunset);">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+          <circle cx="12" cy="12" r="11" fill="#fff" opacity="0.2" />
+          <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z"
+            fill="url(#star-gradient)" stroke="#fff" stroke-width="0.5" />
+          <defs>
+            <linearGradient id="star-gradient" x1="2" y1="2" x2="22" y2="22">
+              <stop stop-color="#FFD700" />
+              <stop offset="1" stop-color="#FFCC80" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Software Developer</h4>
+        <p class="service-item-text">Am Proffesionally a software developer building secure and scalable applications made at a professional level.</p>
+      </div>
+    </li>
 
-            <li class="service-item" style="background-color:green;">
+    <!-- Blockchain Developer -->
+    <li class="service-item" style="background-color: green;">
+      <div class="service-icon-box" style="background: var(--bg-gradient-emerald);">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+          <circle cx="12" cy="12" r="11" fill="#fff" opacity="0.2" />
+          <path d="M12 2L2 7v6c0 5.25 3.75 10.25 10 13 6.25-2.75 10-7.75 10-13V7l-10-5z"
+            fill="url(#shield-gradient)" />
+          <path d="M17 9l-5 5-3-3" stroke="#fff" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Blockchain Developer (ICP)</h4>
+        <p class="service-item-text"> A proficient Blockchain developer building decentralized systems using Internet Computer Protocol (ICP).</p>
+      </div>
+    </li>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
+    <!-- Mobile Developer -->
+    <li class="service-item" style="background-color: gold;">
+      <div class="service-icon-box" style="background: var(--bg-gradient-ocean);">
+        <img src="assets/images/icon-app.svg" alt="Trophy Icon" width="40" height="40" style="display:block;filter:drop-shadow(0 0 4px rgb(14, 10, 222));" />
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Mobile App Developer</h4>
+        <p class="service-item-text">Creating native and hybrid apps for iOS and Android.</p>
+      </div>
+    </li>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web 3 development</h4>
+    <!-- AI Enthusiast -->
+    <li class="service-item" style="background-color: #00eeff;">
+      <div class="service-icon-box" style="background: var(--bg-gradient-cyber);">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+          <circle cx="12" cy="12" r="10" fill="url(#brain-gradient)" />
+          <path d="M8 15c1.5-2 6.5-2 8 0" stroke="#fff" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+          <path d="M8 9c1.5 2 6.5 2 8 0" stroke="#fff" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">AI Enthusiast</h4>
+        <p class="service-item-text">  Am A passionate AI Developer skillfully into Training large Language Model Datasets and exploring AI innovations.</p>
+      </div>
+    </li>
 
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
+    <!-- Author -->
+    <li class="service-item" style="background-color: rgb(218, 22, 172);">
+      <div class="service-icon-box" style="background: var(--bg-gradient-rose);">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+          <rect x="4" y="4" width="16" height="16" rx="2" fill="url(#book-gradient)" />
+          <path d="M8 8h8M8 12h8M8 16h8" stroke="#fff" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Author</h4>
+        <p class="service-item-text"> Being a passionate Scholar,Am an author with my first Edition"Unlimited Power: Behind Software Development”</p>
+      </div>
+    </li>
 
-            </li>
+    <!-- Co-Founder & CEO -->
+    <li class="service-item" style="background-color: rgb(231, 115, 5);">
+      <div class="service-icon-box" style="background: var(--bg-gradient-mint);">
+        <img src="assets/images/icon-design.svg" alt="Trophy Icon" width="40" height="40" style="display:block;filter:drop-shadow(0 0 4px rgb(14, 10, 222));" />
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Co-Founder & CEO</h4>
+        <p class="service-item-text"> I am the Founder Drewsky Softwares LTD, a revolutionary Tech industry creating smart scalable solutions for Tommorows world ,"</p>
+      </div>
+    </li>
 
-            <li class="service-item"style="background-color: gold;">
+  </ul>
+</section>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box" >
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item" style="background-color: #00eeff;">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Block chain engineer</h4>
-
-                <p class="service-item-text">
-                  am a proffesional software engineer creating ,more versatile and more complex sytems
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item" style="background-color:white;">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Game development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of Games with fascinating features at the professional level
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item" style="background-color: rgb(231, 115, 5);">
-
-              <div class="service-icon-box" >
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box" >
-                <h4 class="h4 service-item-title">Author & CEO</h4>
-
-                <p class="service-item-text">
-                  I am the Founder and CEO of X-Flash Messenger, a technology company,also an author with first Edition"Unlimited Power: Behind Software Development," 
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
 
 
         <!--
